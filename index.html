@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mode-toggle" id="mode-toggle"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <img src="image.jpg" alt="Your Profile Picture" class="profile-pic">
+            <h2>Hello, I'm <span>Anish kumar</span></h2>
+            <p>Pursuing Btech (CSE), A 2nd year student. I build amazing websites and applications.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a second-year B.Tech student pursuing Computer Science and Engineering, passionate about technology and its potential to solve real-world problems. My journey in the tech field began with a curiosity to understand how software and systems work, and over time, this curiosity has evolved into a commitment to learn, build, and innovate.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 75%;">75%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Short description of the project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anish kumar</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
